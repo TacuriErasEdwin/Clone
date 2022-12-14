@@ -11,12 +11,13 @@ class _SplashState extends State<Splash>{
   @override
   void initState(){
     super.initState();
-    super.initState();
     _navigatetoHome();
   }
   _navigatetoHome () async{
     await Future.delayed(Duration(milliseconds: 1500), (){});
-    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>MyHomePage(title: 'Flutter',)));
+    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>
+        MyHomePage(title: 'Flutter',)));
+
   }
 
   @override
@@ -29,7 +30,7 @@ class _SplashState extends State<Splash>{
             Container(height: 50, width: 50, color: Colors.red,),
             Container(
               child: Text(
-                'Nombre de la aplicación'
+                'Nombre de la aplicaciónddd'
               ),
             )
           ],

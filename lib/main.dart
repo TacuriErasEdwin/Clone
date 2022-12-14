@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterapp3/splash.dart';
+import 'splash.dart';
 import 'package:flutterapp3/screens/readjson.dart';
 import 'package:flutterapp3/db/mongodb.dart';
 import 'package:flutterapp3/screens/productosmongo.dart';
